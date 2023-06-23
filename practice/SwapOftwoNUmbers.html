@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+  <h1>Swap of two numbers is:</h1>
+  <p id="t1"></p>
+  <p id="t2"></p>
+  <script>
+     var a=prompt("Enter the value of a:");
+     var b=prompt("Enter the value of b:");
+     document.getElementById("t1").innerHTML="The value of a:"+a+" b:"+b;
+     var temp=a;
+     a=b;
+     b=temp;
+     document.getElementById("t2").innerHTML="The numbers after swapping are a:"+a+" b:"+b;
+  </script>
+</body>
+</html>
